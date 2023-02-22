@@ -255,6 +255,7 @@ width: 100%;
 margin: auto;
 }
 #offers{
+
     width: 100%;
     /* margin: auto; */
     text-align: center;
@@ -371,5 +372,15 @@ font-size: 20px;
     font-family: Poppins,sans-serif;
 }
 #bottom-footer>div>div>p:hover{
-    color:  #ff0084;
+
+    width: 90%;
+    margin: auto;
+}
+#offers>img{
+    width: 100%;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+   
+
 }
