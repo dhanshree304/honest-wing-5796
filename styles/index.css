@@ -255,6 +255,124 @@ width: 100%;
 margin: auto;
 }
 #offers{
+
+    width: 100%;
+    /* margin: auto; */
+    text-align: center;
+}
+#offers>img{
+    width: 90%;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+   
+}
+.silder-two{
+    width: 100%;
+}
+.silder-two>div{
+    display: flex;
+    gap: 20px;
+    width: 90%;
+    margin: auto;
+}
+.silder-two>div>div>img{
+    width: 100%; 
+    height: 200px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.silder-two>div>div{
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    padding-bottom: 10px;
+}
+.silder-two>div>div>p{
+    font-size: 18px;
+    font-family: Poppins,sans-serif;
+    margin: 10px;
+    font-weight: bold;
+}
+.silder-two>div>div>p>span{
+    color:  #ff0084;
+    font-size: 20px;
+   display: block;
+}
+#best-deal{
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+#best-deal>div{
+    width: 49%;
+}
+#best-deal>div>img{
+    width: 100%;
+    border-radius: 10px;
+}
+#top-footer{
+    background-color: #3F414D;
+    color: white;
+    margin-top: 20px;
+}
+#top-footer>div{
+    width: 80%;
+    margin: auto;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+#top-footer>div>div>p{
+font-size: 20px;
+}
+#top-footer>div>div>input{
+    width: 200px;
+    border: none;
+    height: 30px;
+    background-color: transparent;
+    color: white;
+    border-bottom: 2px solid white;
+}
+#top-footer>div>div>button{
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 10px;
+    cursor: pointer;
+}
+#top-footer>div>div>div{
+    display: flex;
+}
+#top-footer>div>div>div>img{
+    width:300px;
+    margin-top: 10px;
+   
+}
+#bottom-footer{
+    background-color: #8C8D94;
+
+}
+#bottom-footer>div{
+    width: 80%;
+    margin: auto;
+    padding: 40px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+#bottom-footer>div>div>img{
+    width: 50px;
+}
+#bottom-footer>div>div>p{
+    margin-top: 10px;
+    font-family: Poppins,sans-serif;
+}
+#bottom-footer>div>div>p:hover{
+
     width: 90%;
     margin: auto;
 }
@@ -264,4 +382,5 @@ margin: auto;
     border-radius: 10px;
     margin-top: 20px;
    
+
 }
