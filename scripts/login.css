@@ -1,0 +1,54 @@
+#main{
+    width: 25%;
+    margin: auto;
+    margin-top: 50px;
+ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 30px;
+    text-align: center;
+    border: 1px solid gray;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    font-family: Poppins,sans-serif;
+}
+
+#close_div{
+    display: flex;
+    gap: 100px;
+}
+#close_div>h2:nth-child(1){
+    color: gray;
+    cursor: pointer;
+}
+#Email{
+    border: 1px solid rgb(255, 2, 116);
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    background-color: rgb(240, 237, 237);
+    margin-top: 10px;
+}
+.submit-btn{
+    padding: 20px 140px;
+    margin: auto;
+    margin-top: 100px;
+    color: white;
+    font-size: 20px;
+    border: none;
+    background-color:  rgb(255, 2, 116);
+    cursor: pointer;
+}
+#OTP{
+    border: none;
+    height: 30px;
+    width: 90%;
+    border-bottom: 2px solid rgb(255, 2, 116);
+
+}
+.emailAndPass{
+    border: none;
+    height: 30px;
+    width: 90%;
+    border-bottom: 2px solid gray;
+    margin-top: 20px;
+}

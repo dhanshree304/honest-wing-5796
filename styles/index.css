@@ -1,0 +1,376 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#topnav{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: Inter, Roboto, Arial, sans-serif;
+    background-image: url("https://adn-static1.nykaa.com/media/wysiwyg/2021/common-strip.jpg");
+}
+
+#topnav>div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#topnav>div>div{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 5px;
+    padding-right: 10px;
+}
+#topnav>div>div>img{
+    width: 15px;
+}
+#topnav>div>div:nth-child(1){
+    border-right: 2px solid black;
+}
+#topnav>div>div:nth-child(2){
+    border-right: 2px solid black;
+}
+#topnav>div>div:nth-child(3){
+    border-right: 2px solid black;
+}
+
+#topnav>div>div:hover{
+    color: white;
+}
+#topnav>div>h4:hover{
+    color: white;
+}
+
+
+#middleNav{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    height: 80px;
+    align-items: center;
+    justify-content: space-around;
+    font-family: Inter, Roboto, Arial, sans-serif;
+}
+#middleNav>div{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    gap: 20px;
+}
+#middleNav>div>img{
+    width:90px;
+    margin-top: -10px;
+}
+#middleNav>div>div:hover{
+    cursor: pointer;
+    color: rgb(255, 4, 121);
+}
+#middleNav>div:nth-child(1){
+    width: 10%;
+}
+#serachBox{
+width: 20%;
+height: 40px;
+border-radius: 5px;
+border: 1px solid black;
+}
+#serachBox>input{
+height: 95%;
+width: 80%;
+font-size: 17px;
+font-weight: bold;
+padding-left: 5px;
+border-right: none;
+background-color: #ffffffba;
+}
+#serachBox>button{
+    width: 50%;
+    height: 100%;
+    border-left: none;
+    margin-left: -20px;
+}
+#sign_btn{
+    width: 100px;
+    font-size: 20px;
+    font-weight: bold;
+    height: 40px;
+    background-color:  rgb(255, 4, 121);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin-left: -30px;
+    cursor: pointer;
+}
+#bag
+{
+    width: 30px;
+   
+}
+
+#dropdown-nav{
+    width:100% ;
+    height: 50px;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#dropdown-nav>div{
+    width: 80%;
+    margin: auto;
+}
+.sections{
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-family: Poppins,sans-serif;
+margin: auto;
+      font-size: 0.9em;
+      margin-top: 15px;
+      margin-left: 15px;
+      letter-spacing: 2px;
+      /* border: 1px solid red; */
+}
+.sections>a:link {
+  color:gray;
+         text-decoration: none;
+      }
+      .sections>a:visited {
+        color: black;
+        text-decoration: none;
+      }
+
+.anim-link::after {
+    content: '';
+    display: block;
+    width: 0;
+    margin-top: 12px;
+    height: 5px;
+    background: #ff0084;
+    transition: width .1s;
+}
+.anim-link:hover::after {
+  
+    width: 80%;
+    margin: auto;
+    margin-top: 12px;
+}
+/* drop down menu section */
+
+
+  
+.dropdown {
+  position: relative;
+  display:inline-block;
+  
+}
+
+.dropdown-content {
+  display: none;
+  /* position: fixed; */
+  position: absolute;
+  margin: -15%;
+  margin-top: 18px;
+  border: 1px solid black;
+  background-color: white;
+  /* width: 70%; */
+  padding: 30px;
+ font-family: Poppins,sans-serif;
+  /* max-width: 500px; */
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+#women .dropdown-content{
+  margin-left: -17.5%;
+}
+#mobile .dropdown-content{
+  margin-left: -25%;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {text-decoration:underline}
+
+
+.dropdown:hover .dropdown-content {display:flex;
+  justify-content: left;
+ 
+}
+
+ul>a{
+  font-weight: bold;
+  font-size: 13px;
+  text-align: left;
+  margin-left: 20px;
+}
+ul{
+  list-style: none;
+}
+ul>li>a{
+  text-align: left;
+  font-size: 13px;
+  /* margin-right: 50px; */
+  margin-bottom: -15px;
+  margin-left: 20px;
+ 
+ 
+ 
+}
+#spacial_ul{
+    color: grey;
+    font-size: 13px;
+  }
+  ul>li>a>img{
+    width: 10%;
+  }
+  .title{
+    margin-top: 20px;
+    margin-left: 80px;
+  }
+
+.silder>div{
+    display: flex;
+    gap: 20px;
+    width: 90%;
+    margin: auto;
+}
+.silder>div>div>img{
+    width: 100%; 
+    margin-top: 10px;
+    border-radius: 20px;
+}
+#weddingImg{
+    width: 80%;
+    margin: auto;
+}
+#weddingImg>img{
+    
+width: 100%;
+margin: auto;
+}
+#offers{
+    width: 100%;
+    /* margin: auto; */
+    text-align: center;
+}
+#offers>img{
+    width: 90%;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+   
+}
+.silder-two{
+    width: 100%;
+}
+.silder-two>div{
+    display: flex;
+    gap: 20px;
+    width: 90%;
+    margin: auto;
+}
+.silder-two>div>div>img{
+    width: 100%; 
+    height: 200px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.silder-two>div>div{
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    padding-bottom: 10px;
+}
+.silder-two>div>div>p{
+    font-size: 18px;
+    font-family: Poppins,sans-serif;
+    margin: 10px;
+    font-weight: bold;
+}
+.silder-two>div>div>p>span{
+    color:  #ff0084;
+    font-size: 20px;
+   display: block;
+}
+#best-deal{
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+#best-deal>div{
+    width: 49%;
+}
+#best-deal>div>img{
+    width: 100%;
+    border-radius: 10px;
+}
+#top-footer{
+    background-color: #3F414D;
+    color: white;
+    margin-top: 20px;
+}
+#top-footer>div{
+    width: 80%;
+    margin: auto;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+#top-footer>div>div>p{
+font-size: 20px;
+}
+#top-footer>div>div>input{
+    width: 200px;
+    border: none;
+    height: 30px;
+    background-color: transparent;
+    color: white;
+    border-bottom: 2px solid white;
+}
+#top-footer>div>div>button{
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 10px;
+    cursor: pointer;
+}
+#top-footer>div>div>div{
+    display: flex;
+}
+#top-footer>div>div>div>img{
+    width:300px;
+    margin-top: 10px;
+   
+}
+#bottom-footer{
+    background-color: #8C8D94;
+
+}
+#bottom-footer>div{
+    width: 80%;
+    margin: auto;
+    padding: 40px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+#bottom-footer>div>div>img{
+    width: 50px;
+}
+#bottom-footer>div>div>p{
+    margin-top: 10px;
+    font-family: Poppins,sans-serif;
+}
+#bottom-footer>div>div>p:hover{
+    color:  #ff0084;
+}
