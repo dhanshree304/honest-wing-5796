@@ -102,6 +102,9 @@ background-color: #ffffffba;
     border: none;
     border-radius: 10px;
     margin-left: -30px;
+
+    cursor: pointer;
+
 }
 #bag
 {
@@ -256,6 +259,7 @@ margin: auto;
 }
 #offers{
 
+
     width: 100%;
     /* margin: auto; */
     text-align: center;
@@ -372,6 +376,9 @@ font-size: 20px;
     font-family: Poppins,sans-serif;
 }
 #bottom-footer>div>div>p:hover{
+
+    color:  #ff0084;
+
 
     width: 90%;
     margin: auto;
