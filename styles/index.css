@@ -105,6 +105,9 @@ background-color: #ffffffba;
 
     cursor: pointer;
 
+
+ 
+
 }
 #bag
 {
@@ -378,6 +381,53 @@ font-size: 20px;
 #bottom-footer>div>div>p:hover{
 
     color:  #ff0084;
+}
+#main{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin: 20px;
+    margin-top: 30px;
+    gap:30px;
+   
+}
+#main>div{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+font-family: Poppins,sans-serif;
+}
+#main>div>h2{
+    text-align: left;
+    text-transform: capitalize;
+   
+}
+#main>div>h2:nth-child(5){
+    margin-top: 20px;
+}
+
+#main>div>h3{
+    margin-top: 10px;
+text-align: left;
+}
+#main>div>p{
+    text-align: left;
+    margin-top: 10px;
+    }
+
+#main>div>button{
+    width: 100%;
+    position:relative;
+    bottom: 0px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+    background-color:  #ff0084;
+    color: white;
+    border: none;
+    cursor: pointer;
+  color:  #ff0084;
 
 
     width: 90%;
@@ -388,6 +438,5 @@ font-size: 20px;
     margin: auto;
     border-radius: 10px;
     margin-top: 20px;
-   
 
 }

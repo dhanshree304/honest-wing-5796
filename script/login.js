@@ -84,3 +84,11 @@ proceedBtn.addEventListener("click", function () {
     login_text.append(p, otp);
   }
 });
+
+
+let Namearr = JSON.parse(localStorage.getItem("signUpData"));
+Namearr.map(function (ele) {
+  document.getElementById("sign_btn").disabled = true;
+  document.getElementById("sign_btn").innerText = ele.name;
+});
+
