@@ -1,3 +1,4 @@
+
 let sign_btn = document.getElementById("sign_btn");
 sign_btn.addEventListener("click", function () {
   window.location.href = "./login.html";
@@ -14,3 +15,9 @@ Namearr.map(function (ele) {
   document.getElementById("sign_btn").disabled = true;
   document.getElementById("sign_btn").innerText = ele.name;
 });
+
+let sign_btn=document.getElementById("sign_btn");
+sign_btn.addEventListener("click",function(){
+    window.location.href="./login.html"
+});
+
